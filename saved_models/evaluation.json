@@ -1,0 +1,62 @@
+{
+  "sample_count": 816,
+  "feature_count": 6,
+  "supervised": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 810.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 816.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 816.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        810
+      ]
+    ]
+  },
+  "unsupervised": {
+    "ocsvm_anomaly_stats": {
+      "min": -2.111262633070475,
+      "max": 0.9319368178624738,
+      "mean": -0.9509769323530486
+    },
+    "kmeans_silhouette": 0.1438805090460003
+  },
+  "hybrid": {
+    "risk_score_stats": {
+      "min": 0.0001222550868988037,
+      "max": 0.48203481245040897,
+      "mean": 0.1702208413501948
+    }
+  }
+}
