@@ -19,5 +19,5 @@ Quick start:
    python pipeline.py
 
 4. Start dashboard:
-   streamlit run streamlit_app/app_pipeline.py 
+   streamlit run streamlit_app/app.py 
 
